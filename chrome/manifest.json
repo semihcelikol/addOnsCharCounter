@@ -6,8 +6,7 @@
   "author": "Semih Çelikol",
   "homepage_url": "https://semihcelikol.com",
   "permissions": [
-    "contextMenus",
-    "activeTab"
+    "contextMenus"
   ],
   "background": {
     "service_worker": "background.js"
