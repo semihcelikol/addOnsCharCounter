@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Character Counter",
-  "version": "1.0",
+  "version": "1.1",
   "description": "Displays the character count of the selected text.",
   "author": "Semih Çelikol",
   "homepage_url": "https://semihcelikol.com",
