@@ -5,20 +5,12 @@
   "description": "Displays the character count of the selected text.",
   "author": "Semih Çelikol",
   "homepage_url": "https://semihcelikol.com",
-  "developer": {
-    "name": "Semih Çelikol",
-    "url": "https://semihcelikol.com/"
-  },
-  "browser_specific_settings": {
-    "gecko": {
-      "id": "semihcelikol@character-counter"
-    }
-  },
   "permissions": [
-    "contextMenus"
+    "contextMenus",
+    "activeTab"
   ],
   "background": {
-    "scripts": ["background.js"]
+    "service_worker": "background.js"
   },
   "content_scripts": [
     {
